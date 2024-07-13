@@ -1,6 +1,15 @@
 <template>
   <div>
-    <NuxtPage />
+    <NuxtLoadingIndicator />
+
+    <NuxtLayout>
+
+      <NuxtPage />
+    </NuxtLayout>
+    <UiVueSonner />
+
+
+
   </div>
 </template>
 
